@@ -1,8 +1,8 @@
-----        
- -layout: post      
- -title: 我的日记      
- -category: 沉淀    
- -keywords: python django       
-----
+---
+layout: post
+title: Jekyll Tags on Github Pages
+description: blablabla
+tags: jekyll blog github-page
+---
 
 ## hello world
