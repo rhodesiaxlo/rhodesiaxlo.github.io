@@ -2,7 +2,7 @@
 layout: post
 title: 使用django框架搭建投票系统
 description: 使用django框架搭建投票系统
-category: 日记
+category: 日记1
 tags: pyhon django 
 ---
 
