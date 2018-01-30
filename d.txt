@@ -1,0 +1,178 @@
+11:37:45.453685 == Info: Rebuilt URL to: rw.123.com/
+11:37:45.484426 == Info:   Trying 127.0.0.1...
+11:37:45.484715 == Info: Connected to rw.123.com (127.0.0.1) port 80 (#0)
+11:37:45.484746 => Send header, 74 bytes (0x4a)
+0000: GET / HTTP/1.1
+0010: Host: rw.123.com
+0022: User-Agent: curl/7.43.0
+003b: Accept: */*
+0048: 
+11:37:45.744278 <= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+11:37:45.744298 <= Recv header, 22 bytes (0x16)
+0000: Server: nginx/1.12.2
+11:37:45.744306 <= Recv header, 37 bytes (0x25)
+0000: Date: Tue, 30 Jan 2018 03:37:45 GMT
+11:37:45.744314 <= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=utf-8
+11:37:45.744322 <= Recv header, 28 bytes (0x1c)
+0000: Transfer-Encoding: chunked
+11:37:45.744329 <= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+11:37:45.744336 <= Recv header, 26 bytes (0x1a)
+0000: X-Powered-By: PHP/7.0.27
+11:37:45.744342 <= Recv header, 2 bytes (0x2)
+0000: 
+11:37:45.744347 <= Recv data, 8125 bytes (0x1fbd)
+0000: 1fb5
+0006: <!DOCTYPE html>.<html>.<head>.<title>...........................
+0046: ...-............................................................
+0086: .........</title>.<meta http-equiv="Content-Type" content="text/
+00c6: html; charset=utf-8" />.<meta name="keywords" content=".........
+0106: ............................................." />.<meta name="de
+0146: scription" content="............................................
+0186: .............................................." />.<meta http-eq
+01c6: uiv="X-UA-Compatible" content="IE=edge,chrome=1">.<link rel="sty
+0206: lesheet" href="/static/pc/js/lib/layui/css/layui.css" />.<link r
+0246: el="stylesheet" href="/static/pc/css/base.css" />.<script type="
+0286: text/javascript" src="/static/pc/js/jquery-1.8.3.min.js" ></scri
+02c6: pt>.<script type="text/javascript" src="/static/pc/js/lib/jquery
+0306: .flexslider-min.js"></script>.<script type="text/javascript" src
+0346: ="/static/pc/js/lib/layui/layui.js"></script>.<script type="text
+0386: /javascript" src="/static/pc/js/common.js" ></script>.</head>.<b
+03c6: ody>.<!--head start-->.<div class="header-wrap">.    <div class=
+0406: "wrapper header-ctn clearfix">.        <div class="logo fl mt20"
+0446: ><a href="/" title=""><img src="/static/pc/images/login.jpg" alt
+0486: =".............................."></a></div>.        <div class=
+04c6: "nav-ctn fr">.            <ul>.                <li class="curr">
+0506: <a class="navctn-a" href="/">... ...</a></li>.                <l
+0546: i ><a class="navctn-a" href="/news.html">............</a></li>. 
+0586:                <li ><a class="navctn-a" href="/safe.html">......
+05c6: ............</a></li>.                <li class='js-disnav-li '>
+0606: .                .<a class="navctn-a" href="/search.html">......
+0646: ......</a>.                .<div class="disnav-wrap js-disnav-wr
+0686: ap">.                ..<a class="disnav-li" href="/search.html">
+06c6: ..................</a>.                        <a class="disnav-
+0706: li" href="/feedback.html">........................</a>.         
+0746:        ..<a class="disnav-li" href="/certificate.html">.........
+0786: ...</a>.                ..<a class="disnav-li" href="javascript:
+07c6: void(0)">..........................................</a>.        
+0806:         ..<a class="disnav-li" href="javascript:void(0)">.......
+0846: ................................</a>.                .</div>.   
+0886:              </li>.                <li ><a class="navctn-a" href
+08c6: ="/knowledge.html">.....................</a></li>.              
+0906:   <li ><a class="navctn-a" href="/aboutus.html">............</a>
+0946: </li>.            </ul>.        </div>.    </div>.</div>.<!--hea
+0986: d start-->.<script>..$("body").on("mouseover",".js-disnav-li",fu
+09c6: nction(){...//alert("aaa")...$(this).find(".js-disnav-wrap").sli
+0a06: deDown();..})..$("body").on("mouseleave",".js-disnav-li",functio
+0a46: n(){...$(this).find(".js-disnav-wrap").slideUp();..}).</script>.
+0a86: ...<!--banner start-->.<div class="focus flexslider">.    <ul cl
+0ac6: ass="slides">.        <li style="background:url(/static/pc/image
+0b06: s/index/focusimg1.jpg) center top no-repeat"><a href="#"></a></l
+0b46: i>.        <li style="background:url(/static/pc/images/index/foc
+0b86: usimg1.jpg) center top no-repeat"><a href="#"></a></li>.    </ul
+0bc6: >.</div>.<!--banner end-->..<!--............ start-->.<div class
+0c06: ="wrapper ind-conpany clearfix">.    <div class="ind-conpanyctn 
+0c46: fl">.        <h2 class="conp-h2tit mb30">............</h2>.     
+0c86:    <div class="conp-h2txt">.            <p>.....................
+0cc6: ....................................2011...10...................
+0d06: ................................................................
+0d46: ................................................................
+0d86: ................................................................
+0dc6: ................................................................
+0e06: ................................................................
+0e46: ................................................................
+0e86: ................................................................
+0ec6: .......................................................</p>.    
+0f06:         <p>.....................................................
+0f46: .........................1985...5...............................
+0f86: ........</p>.        </div>.        <p class="conp-links mt20"><
+0fc6: a href="/aboutus.html">............</a></p>.    </div>.    <div 
+1006: class="about-video fr mt30">.                    <img src="/stat
+1046: ic/pc/images/index/videoimg.jpg">.            </div>.</div>.<!--
+1086: ............ end-->..<!--............  start-->.<div class="wrap
+10c6: per ind-advantage clearfix">.    <div class="ind-advbox ind-advb
+1106: ox1 fl">.        <div class="advbox-icowrap"><i class="advbox-ic
+1146: o advbox-ico1"></i></div>.        <h2 class="advbox-title tc mt2
+1186: 0 fs18 cor-black">............</h2>.        <p class="advbox-des
+11c6:  tc mt20 cor-999">.        .....................................
+1206: ................................................................
+1246: ................................................................
+1286: ................................................................
+12c6: ................................................................
+1306: .....................................</p>.    </div>.    <div cl
+1346: ass="ind-advbox ind-advbox2 fl">.        <div class="advbox-icow
+1386: rap"><i class="advbox-ico advbox-ico2"></i></div>.        <h2 cl
+13c6: ass="advbox-title tc mt20 fs18 cor-black">......................
+1406: ..</h2>.        <p class="advbox-des tc mt20 cor-999">.         
+1446:    ... .......................................<br>.            .
+1486: .. .........................................................<br>
+14c6: .            ... ...............................................
+1506: ........        </p>.    </div>.    <div class="ind-advbox ind-a
+1546: dvbox3 fl">.        <div class="advbox-icowrap"><i class="advbox
+1586: -ico advbox-ico3"></i></div>.        <h2 class="advbox-title tc 
+15c6: mt20 fs18 cor-black">............</h2>.        <p class="advbox-
+1606: des tc mt20 cor-999">.            ... ..........................
+1646: ............................<br>.            ... ...............
+1686: ............<br>.            ... ............................   
+16c6:      </p>.    </div>.</div>.<!--............ end-->..<!--news st
+1706: art-->.<div class="hmwnews-container">.    <div class="wrapper h
+1746: mwnews-wrap">.        <div class="ind-hmwnews-h2 tc">...........
+1786: ....</div>.        <div class="nmwnews-main clearfix ">.        
+17c6:                 <div class="nmwnews-box nmwnews-box1 bg-white fl
+1806: ">.                <a href="/article/30.html">.                 
+1846:    <img src="/upload/image/42/97a9051fa3a4bf40a097a13af2d8c9.jpg
+1886: " width="380" height="315">.                    <div class="nmwn
+18c6: ews-pre">.                        <h2 class="nmwnews-title">2016
+1906: ................................................................
+1946: ........</h2>.                        <p class="nmwnews-des">201
+1986: 6......................................................2016...3.
+19c6: ..22............................................................
+1a06: .....................70.........................................
+1a46: ....................................................</p>.       
+1a86:                  <p class="nmwnews-detbtn mt20"><span class="tc"
+1ac6: >............</span></p>.                    </div>.            
+1b06:     </a>.            </div>.                        <div class="
+1b46: nmwnews-box nmwnews-box2 bg-white fl">.                <a href="
+1b86: /article/29.html">.                    <img src="/upload/image/3
+1bc6: d/49460438d2669e476c640f7fd9f2e3.jpg" width="380" height="315">.
+1c06:                     <div class="nmwnews-pre">.                  
+1c46:       <h2 class="nmwnews-title">................................
+1c86: .</h2>.                        <p class="nmwnews-des">...2016...
+1cc6: 3...22....................................2016..................
+1d06: ................................................................
+1d46: ................................................................
+1d86: ................&nbsp;&nbs...</p>.                        <p cla
+1dc6: ss="nmwnews-detbtn mt20"><span class="tc">............</span></p
+1e06: >.                    </div>.                </a>.            </
+1e46: div>.                        <div class="nmwnews-box nmwnews-box
+1e86: 3 bg-white fl">.                <a href="/article/28.html">.    
+1ec6:                 <img src="/upload/image/5a/1d23832f7689d84e86e12
+1f06: 68048b1d8.jpg" width="380" height="315">.                    <di
+1f46: v class="nmwnews-pre">.                        <h2 class="nmwnew
+1f86: s-title">2016........................................
+11:37:45.745748 <= Recv data, 1219 bytes (0x4c3)
+0000: 4b7
+0005: .............................</h2>.                        <p cl
+0045: ass="nmwnews-des">..............................................
+0085: ................................................................
+00c5: ..................................&nbsp;&nbsp;&nbsp;&nbsp;......
+0105: ...................................................</p>.        
+0145:                 <p class="nmwnews-detbtn mt20"><span class="tc">
+0185: ............</span></p>.                    </div>.             
+01c5:    </a>.            </div>.                    </div>.    </div>
+0205: .</div>.<!--news end-->.<script type="text/javascript">.    $(do
+0245: cument).ready(function(){.        //..........        $('.flexsl
+0285: ider').flexslider({.            directionNav: true,.            
+02c5: pauseOnAction: false.        });.        //tips..........    });
+0305: .</script>..<!--foot start-->.<footer class="footer">.    <div c
+0345: lass="footer-ctn wrapper clearfix">.        <div class="copy fl"
+0385: >.            ..................................................
+03c5: ....   ...ICP...17020867...        </div>.        <div class="fr
+0405:  tr">.            ...............4000996900<br>.            ....
+0445: ...................................17...15...1503B.        </div
+0485: >.    </div>.</footer>.<!--foot end-->.</body>.</html>.
+04be: 0
+04c1: 
+11:37:45.745957 == Info: Connection #0 to host rw.123.com left intact

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 20180129
+title: 使用django框架搭建投票系统
 description: 使用django框架搭建投票系统
 category: 日记
 tags: pyhon django 
@@ -219,7 +219,7 @@ def Index(request):
 {%if latest_question_list %}
     <ul>
         {% for question in latest_question_list %}
-            <li><a href="{% url 'polls/detail' question.id %}">{{question.question_text}}</a></li>
+            
         {% endfor %}
     </ul>
 {% else %}
@@ -259,7 +259,6 @@ result.html
 {% endif %}
 
 <form action="{{url 'polls:vote' question.id }}" method="post">
-{% csrf_token %}
 {% for vote in question.vote_set.all %}
     <input type="radio" name="vote" id="vote{{forloop.counter}}" value="{{vote.vote_text}}" />
 {% endfor %}

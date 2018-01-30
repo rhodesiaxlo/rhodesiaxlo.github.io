@@ -1,9 +1,9 @@
 ---
 layout: post
-title: CURL 工具
-description: CURL 工具
-category: 日记
-tags: tools curl 
+title: machine learning 01
+description: machine learning 01
+category: Machine Learning
+tags: machine learning
 ---
 
 # get
