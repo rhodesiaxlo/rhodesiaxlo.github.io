@@ -260,7 +260,6 @@ result.html
 {% endif %}
 
 <form action="{{url 'polls:vote' question.id }}" method="post">
-{% csrf_token %}
 {% for vote in question.vote_set.all %}
     <input type="radio" name="vote" id="vote{{forloop.counter}}" value="{{vote.vote_text}}" />
 {% endfor %}
