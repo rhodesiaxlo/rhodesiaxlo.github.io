@@ -6,6 +6,7 @@ category: 日记
 tags: pyhon django 
 ---
 
+
 #### 利用 django 搭建投票系统（ django-1.8.18 python-2.7
 
 ## 创建 django 项目
