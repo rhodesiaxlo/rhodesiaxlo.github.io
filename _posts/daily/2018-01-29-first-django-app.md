@@ -220,7 +220,6 @@ def Index(request):
 {%if latest_question_list %}
     <ul>
         {% for question in latest_question_list %}
-            <li><a href="{% url 'polls:detail' question.id %}">{{question.question_text}}</a></li>
         {% endfor %}
     </ul>
 {% else %}
@@ -242,7 +241,6 @@ def Result(request, question_id):
 ```
 
 result.html 
-
 ```
 <h1>{{question.question_text}}</h1>
 <ul>
@@ -251,6 +249,7 @@ result.html
     {% endfor %}
 </ul>
 ```
+
  
 ```
 # mysite/polls/templates/polls/detail.html
@@ -284,6 +283,18 @@ def vote(request, question_id):
         # 跳转到 result 页面
         return HttpResponseRedirect(reverse("polls:results", args=(question.id,)))
 ```
+
+# 静态文件
+默认静态文件是存放在 app 中的 static 目录下的，与template 类似，在部署项目后，可以使用
+在 html 中可以通过加载 
+
+使用，项目部署完成之后，可以通过
+```
+python manage.py collectstatic
+```
+对项目的所有 app 中的 static 文件进行汇总
+
+
 
 
 
